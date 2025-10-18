@@ -1,67 +1,41 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contact — Request a Quote</title>
-  <meta name="description" content="Contact Angelo DeFeo II for remodeling and handyman work in Ventura County. Call 805-377-4771 or email angelo.defeo90@yahoo.com.">
-  <link rel="icon" href="/assets/icons/favicon.svg">
-  <link rel="manifest" href="/site.webmanifest">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Contact — Request a Quote">
-  <meta property="og:description" content="Contact Angelo DeFeo II for remodeling and handyman work in Ventura County. Call 805-377-4771 or email angelo.defeo90@yahoo.com.">
-  <meta property="og:image" content="/assets/icons/og.png">
-  <link rel="stylesheet" href="/styles/main.css">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "LocalBusiness", "name": "Angelo DeFeo II \u2014 Remodeling & Handyman", "description": "Residential remodeling, renovation, and handyman services in Ventura County and surrounding areas.", "url": "https://www.angelodefeo.com", "telephone": "+1-805-377-4771", "areaServed": "Ventura County, California", "email": "angelo.defeo90@yahoo.com", "image": "https://www.angelodefeo.com/assets/icons/favicon.svg", "address": {"@type": "PostalAddress", "addressRegion": "CA", "addressCountry": "US"}, "sameAs": []}</script>
-</head>
-<body>
-<header class="header">
-  <div class="container nav">
-    <a class="brand" href="/"><span class="logo" aria-hidden="true"></span><span class="name">Angelo DeFeo II</span></a>
-    <nav>
-      <a href="/services.html">Services</a>
-      <a href="/gallery.html">Gallery</a>
-      <a href="/contact.html">Contact</a>
-    </nav>
-  </div>
-</header>
-<main class="container">
+<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="contact-form">
+  <input type="hidden" name="form-name" value="contact">
+  <!-- honeypot -->
+  <p class="sr-only">
+    <label>Don’t fill this out: <input name="bot-field"></label>
+  </p>
 
-<section class="section">
-  <h1>Contact</h1>
-  <p class="kicker">Let's discuss your project</p>
-  <div class="grid">
-    <div class="card">
-      <h2>Get in touch</h2>
-      <p><strong>Phone:</strong> <a href="tel:+18053774771">805‑377‑4771</a><br>
-         <strong>Email:</strong> <a href="mailto:angelo.defeo90@yahoo.com">angelo.defeo90@yahoo.com</a></p>
-      <p>Serving Ventura County and surrounding areas.</p>
-    </div>
-    <div class="card">
-      <h2>Request a quote</h2>
-      <!-- Netlify form -->
-      <form name="quote" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="form">
-        <input type="hidden" name="form-name" value="quote">
-        <p class="sr-only">
-          <label>Don’t fill this out: <input name="bot-field"></label>
-        </p>
-        <p><label>Your Name<br><input name="name" required placeholder="Jane Doe" style="width:100%; padding:10px; border-radius:10px; border:1px solid #2a3340; background:#0d131a; color:var(--text)"></label></p>
-        <p><label>Email<br><input type="email" name="email" required placeholder="you@example.com" style="width:100%; padding:10px; border-radius:10px; border:1px solid #2a3340; background:#0d131a; color:var(--text)"></label></p>
-        <p><label>Phone<br><input name="phone" placeholder="(805) 555‑1234" style="width:100%; padding:10px; border-radius:10px; border:1px solid #2a3340; background:#0d131a; color:var(--text)"></label></p>
-        <p><label>Project Details<br><textarea name="details" rows="5" placeholder="Kitchen update, flooring install, timeline, etc." style="width:100%; padding:10px; border-radius:10px; border:1px solid #2a3340; background:#0d131a; color:var(--text)"></textarea></label></p>
-        <p><button class="btn" type="submit">Send</button></p>
-      </form>
-      <p style="color:var(--muted); font-size:12px">By submitting, you agree to be contacted about your project.</p>
-    </div>
-  </div>
-</section>
+  <!-- time-gate -->
+  <input type="hidden" name="started_at" id="started_at">
 
-</main>
-<footer class="footer">
-  <div class="container">
-    <div>© 2025 Angelo DeFeo II • Ventura County • <a href="/contact.html" class="badge">Get a quote</a></div>
-  </div>
-</footer>
-<script src="/scripts/main.js"></script>
-</body>
-</html>
+  <p><label>Your Name<br>
+    <input name="name" required autocomplete="name"></label></p>
+
+  <p><label>Email<br>
+    <input type="email" name="email" required autocomplete="email"></label></p>
+
+  <p><label>Phone (optional)<br>
+    <input name="phone" inputmode="tel" autocomplete="tel"></label></p>
+
+  <p><label>Project Details<br>
+    <textarea name="message" rows="5" required></textarea></label></p>
+
+  <button class="btn" type="submit">Send</button>
+
+  <noscript>
+    JavaScript is required to submit the form. Email us at:
+    <span id="noscript-email">hello [at] angelodefeo [dot] com</span>
+  </noscript>
+</form>
+
+<script>
+// time-gate: set form start time; block < 5s submits
+const started = Date.now();
+document.getElementById('started_at').value = started;
+document.getElementById('contact-form').addEventListener('submit', (e) => {
+  if (Date.now() - started < 5000) {
+    e.preventDefault();
+    alert('Please wait a moment before submitting.');
+  }
+});
+</script>
