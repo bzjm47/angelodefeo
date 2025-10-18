@@ -1,41 +1,37 @@
-<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="contact-form">
-  <input type="hidden" name="form-name" value="contact">
-  <!-- honeypot -->
-  <p class="sr-only">
-    <label>Don’t fill this out: <input name="bot-field"></label>
+<section class="section">
+  <h1>Contact</h1>
+  <p class="kicker">Let's discuss your project</p>
+
+  <form name="contact" method="POST" action="/thanks.html"
+        data-netlify="true" netlify-honeypot="bot-field">
+    <input type="hidden" name="form-name" value="contact">
+
+    <!-- honeypot -->
+    <p class="sr-only"><label>Don’t fill this out:
+      <input name="bot-field"></label></p>
+
+    <p><label>Your Name<br>
+      <input name="name" required autocomplete="name"></label></p>
+
+    <p><label>Email<br>
+      <input type="email" name="email" required autocomplete="email"></label></p>
+
+    <p><label>Phone (optional)<br>
+      <input name="phone" inputmode="tel" autocomplete="tel"></label></p>
+
+    <p><label>Project Details<br>
+      <textarea name="message" rows="5" required></textarea></label></p>
+
+    <p><button class="btn" type="submit">Send</button></p>
+  </form>
+
+  <p>Prefer email? Reach me at:
+    <span id="email"></span>
   </p>
 
-  <!-- time-gate -->
-  <input type="hidden" name="started_at" id="started_at">
-
-  <p><label>Your Name<br>
-    <input name="name" required autocomplete="name"></label></p>
-
-  <p><label>Email<br>
-    <input type="email" name="email" required autocomplete="email"></label></p>
-
-  <p><label>Phone (optional)<br>
-    <input name="phone" inputmode="tel" autocomplete="tel"></label></p>
-
-  <p><label>Project Details<br>
-    <textarea name="message" rows="5" required></textarea></label></p>
-
-  <button class="btn" type="submit">Send</button>
-
-  <noscript>
-    JavaScript is required to submit the form. Email us at:
-    <span id="noscript-email">hello [at] angelodefeo [dot] com</span>
-  </noscript>
-</form>
-
-<script>
-// time-gate: set form start time; block < 5s submits
-const started = Date.now();
-document.getElementById('started_at').value = started;
-document.getElementById('contact-form').addEventListener('submit', (e) => {
-  if (Date.now() - started < 5000) {
-    e.preventDefault();
-    alert('Please wait a moment before submitting.');
-  }
-});
-</script>
+  <script>
+    const user = "hello", domain = "angelodefeo.com";
+    document.getElementById("email").innerHTML =
+      `<a href="mailto:${user}@${domain}">${user}@${domain}</a>`;
+  </script>
+</section>
