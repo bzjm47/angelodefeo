@@ -39,28 +39,9 @@ body{
 .brand{
   display:flex; align-items:center; gap:12px; text-decoration:none; color:var(--text);
 }
-display: grid;
-  place-items: center;
-  font-family: Inter, Arial, sans-serif;
-  font-weight: 900;
-  font-size: 24px; /* Bigger */
-  letter-spacing: 1.5px;
-  background: linear-gradient(135deg, #4ee0c2 0%, #0097a7 100%);
-  color: #000000; /* Black AD text */
-  width: 52px;
-  height: 52px;
-  border-radius: 10px;
-  flex: 0 0 52px;
-  user-select: none;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
-}
 
 @media (max-width: 480px) {
-  .brand .logo {
-    width: 44px;
-    height: 44px;
-    font-size: 20px;
-  }
+  .brand .logo{display:grid;place-items:center;font-family:Inter, Arial, sans-serif;font-weight:900;font-size:24px;letter-spacing:1.5px;background:linear-gradient(135deg,#4ee0c2 0%, #0097a7 100%);color:#000;width:52px;height:52px;border-radius:10px;flex:0 0 52px;user-select:none;box-shadow:0 3px 8px rgba(0,0,0,.15);}
 }
 .brand .name{font-weight:700; letter-spacing: .2px;}
 
