@@ -60,12 +60,10 @@
     const body = encodeURIComponent(
       `Hi Angelo,\n\nI need help with: ${query.trim() || '[describe here]'}\n\nLocation (city): \nTimeline: \nBudget range (optional): \n\nPhotos (if any): \n\nThanks!`
     );
-
     if (ctaTalk) {
-      ctaTalk.href = `mailto:ask@angelodefeo.com?subject=${subject}&body=${body}`;
+      ctaTalk.href = `/contact.html?q=${encodeURIComponent(q)}`;
     }
-
-    // If nothing matched, still show the CTA and unhide all cards after a moment so the gallery isn't empty.
+// If nothing matched, still show the CTA and unhide all cards after a moment so the gallery isn't empty.
     if (matches === 0) {
       // Keep gallery visible but indicate "no exact match" by showing all.
       for (const c of cards) c.hidden = false;
@@ -139,35 +137,22 @@
   }
 
 
-  // Contact form opens email
-  const contactForm = $('#contactForm');
+
+  // Prefill request message from URL query (?q=...)
+  const msgEl = document.getElementById('message');
+  if (msgEl) {
+    const url = new URL(window.location.href);
+    const q = (url.searchParams.get('q') || '').trim();
+    if (q && !msgEl.value.trim()) {
+      msgEl.value = `Request: ${q}\n\nDetails:\n`;
+    }
+  }
+
+
+  // Contact form: if present, we let Netlify (or normal POST) handle submission.
+  // (No mailto fallback — keep everything on-site.)
+  const contactForm = document.getElementById('contactForm') || document.querySelector('form[name="request"]');
   if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-      // If this form is wired to Netlify Forms, allow normal POST submit.
-      if (contactForm.hasAttribute('data-netlify')) return;
-
-      // Fallback: open an email draft (legacy behavior)
-      e.preventDefault();
-      const fd = new FormData(contactForm);
-      const name = String(fd.get('name') || '').trim();
-      const phone = String(fd.get('phone') || '').trim();
-      const email = String(fd.get('email') || '').trim();
-      const category = String(fd.get('category') || '').trim();
-      const msg = String(fd.get('message') || '').trim();
-
-      const subject = encodeURIComponent(`Ask Angelo Request${category ? ' - ' + category : ''}`);
-      const body = encodeURIComponent(
-        `Name: ${name}
-Phone: ${phone}
-Email: ${email}
-Category: ${category}
-
-Issue:
-${msg}
-`
-      );
-
-      window.location.href = `mailto:ask@angelodefeo.com?subject=${subject}&body=${body}`;
-    });
+    // If you later add client-side validation, do it here.
   }
 })();

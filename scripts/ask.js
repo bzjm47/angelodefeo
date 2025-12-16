@@ -63,7 +63,7 @@
       const body = encodeURIComponent(
         `Hi Angelo,\n\nI need help with: ${query}\n\nCity:\nTimeline:\nPhotos/notes:\n\nSent from angelodefeo.com`
       );
-      talkBtn.href = `mailto:ask@angelodefeo.com?subject=${subject}&body=${body}`;
+      talkBtn.href = `/contact.html?q=${encodeURIComponent(query)}`;
 
       noResults.hidden = shown !== 0;
     } else {
