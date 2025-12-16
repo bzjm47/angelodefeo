@@ -1,0 +1,1355 @@
+{
+  "generated_at": "2025-12-16T21:27:09.141244",
+  "counts": {
+    "kitchen": 65,
+    "bathroom": 38,
+    "total": 103
+  },
+  "default_tags": [
+    "remodel",
+    "renovation",
+    "before-after",
+    "residential"
+  ],
+  "items": [
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-001.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_0069.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "bf150fdc23af727130159bd8e7164ca088b90a01"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-002.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_0070.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "e9a11c58648a2a2b1c5a41079f76fde44ccf565a"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-003.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_0071.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "03de0530e8b1b7e46bbfde967325a91b5f47abe8"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-004.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_0072.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "6b33f3072d752d846e0e8b74390d2da01e298a3a"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-005.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3492.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "5fe946b205335ad3cc307d3be0cea45acac5d504"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-006.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3493.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "3a85a46f301e35da5b3f690fae9dbd0e9c27c639"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-007.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3496.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "f427d728d50f35847deb2a76f3ccadd16ed17dfa"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-008.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3497.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "dcd4d3fab1688ab43b996e22db3b6f89485e3a21"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-009.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3498.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "f664ee4a307c993bbb49b8952d85248c7806ecc5"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-010.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3793.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "d5be8ef744b4e9a80af08f267b4a5eb29a573e0a"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-011.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3794.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "6ff25aacc0cef8d95c9aad14f34d098686cd08b7"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-012.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3795.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "ed3852f415559224ff0a6cbc41869b4e20adeb88"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-013.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3796.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "3ee9a8923170a8727a4d01b1f4d5f76297886af6"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-014.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3797.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "aee6a607deac5a1983a42320bbe3f8d4a1a7c984"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-015.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3798.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "5a0b1650d8a4523cffd58c4a711905f7d5546c54"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-016.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3807.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "0abe1ff9c943d14c2130d7e6a349b2e806bf4eb1"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-017.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3808.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "095a3f79b78d4684f647046f4c11d3ed8cd22ed1"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-018.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3809.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "fac341c842889f350cc6c980ea0c240458b04c7a"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-019.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3810.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "95025859e268b69c527db9eb31e79e6ba5fb8d41"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-020.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3811.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "786f4446661ba0e028c66f1b36542f25c3e08a0d"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-021.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3812.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "4c457eb8acd0fa9d7513e284f8c42c339993c0aa"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-022.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3813.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "adc209d123f9c3420c5779a6ebf7be68741e53b5"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-023.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3814.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "2a26fbcd73acdd75a919d2bb9a389c708955f625"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-024.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3815.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "cd44ceec8fe34ca05027393c3c74a0da5721e797"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-025.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3829.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "0b5da100d6dab42639f8388d4374c3083a0880c1"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-026.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3830.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "21c04938e45b61f88f8fad0b5e5c47dbc6d38117"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-027.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3831.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "915a8f4ebbb63b63f0749856fb9ec7603b2af61c"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-028.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3859.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "a7bf6544fc2e10399d36b64a915a8a7fc1ef891e"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-029.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3860.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "31ceaa47600af8f1a274d043686f54fe8d3ed797"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-030.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3861.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "3efc3bda5748426f64d9b24b0b415da603c1b373"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-031.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3869.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "609b219026f8019c7a33b0725d0c395274777b23"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-032.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3870.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "8b46fe87691b1aa528ce17cf7b37a8d6f3538d36"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-033.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3872.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "edf2e3afffbc8940cc056e33fdb38a013fcbcb5a"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-034.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3873.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "a1ac13b7bd3e3884bfc5c0c1c26a683c01239706"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-035.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3874.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "cb234e4d55bf8e620bb4321e4ae1caec2d9126f5"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-036.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3899.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "6e13c1ab7814941194f315264f042e133a695c4f"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-037.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3900.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "f51f67b03490dc48b71bf1d886af8d86807067a3"
+    },
+    {
+      "category": "bathroom",
+      "filename": "angelo-bathroom-remodel-038.jpg",
+      "original_path": "gallery/Bathroom Remodel/IMG_3901.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "bathroom"
+      ],
+      "sha1": "9514c092632e2b84c7eebb214f079978edf24ae1"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-001.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3799.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "55f7ee23980b204444310d1b19067605ee930d58"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-002.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3800.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "557ed2a8b0ad2a36832f69c17aa302c344812cbb"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-003.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3801.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "08ed150c007429ff0d67cdf4362fece6c588b9a3"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-004.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3802.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "8298f5cf2d0c8ed6f0b726be3636f769d62f787f"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-005.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3803.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "fe4cd77ebd714085f238de22d51522f1d89da262"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-006.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3804.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "de63c201a47bb4ed0959ec8587f0a149ba9234d9"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-007.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3805.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "4d480526ab84180f84bfe001e9171dff6d761838"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-008.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3806.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "4278bf809ab9b8944a333e64f4ff19fd3ce028aa"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-009.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3816.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "ef593645c59a8fd3cf6d76b2dc67b63cfe0b1528"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-010.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3817.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "3405d1975e33af8bc54ba306a582fe4175bbbc77"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-011.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3818.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "e7c291eec87c09bad4fcc96fc9efd2a8772a6d92"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-012.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3819.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "dc3fa9f7d04a845ac3248579cbe0338ba1a44a01"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-013.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3820.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "ae09d2d87c3e5595b15eccc6ae62b30bbef4e73c"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-014.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3821.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "2d798eb6f9a00f8da9fdb881beb7271e7b8df1e4"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-015.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3822.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "c39cb2693867a5af8e16906383d871f83f99c557"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-016.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3823.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "c0d1e8905114396de893e62990d534875df13625"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-017.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3824.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "865c8f5238b654eaac717fab62fa2fe9a686a484"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-018.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3825.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "0b9a8f5facb15fd6944715b3f815dc1dbd79ac3b"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-019.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3832.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "77aa345beb7d0906218c479bb653bda2f8fd993e"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-020.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3833.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "b7c4d76891e0eff1e5bbf553c72ecc651c6ef91f"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-021.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3834.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "bdde60e3d0b5ea1fdee55f8d15419ecc0039812f"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-022.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3835.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "3011672fa1400bef0355f48c8d3367800478b74b"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-023.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3836.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "b07a5984e413b54f5b39eb21064ddefaee3e8bcf"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-024.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3837.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "4624a0e9ad0e8f3dce5e9d15de7ce568640b7d58"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-025.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3838.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "e4210a09f9e829fad847609533f6e768e027d1de"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-026.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3839.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "ec5bb80cbee32d2c6a38f7d031b352c2ba224980"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-027.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3840.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "6b18f0200af4e558590d46890c52f581848f6bed"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-028.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3841.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "ef1993e07cf9ec586c4d43a9ba7ae363d5b91b67"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-029.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3842.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "c4ec612150495c5e8a108ca152da2b59b65aed22"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-030.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3844.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "d31050802e06086546cf7361d1321dfd95661a6a"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-031.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3845.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "ba68b58b37df4b0b069de79ec38e6d46dc494423"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-032.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3846.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "ecc925d423937d23be43c567cbb7a74bc10b92f2"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-033.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3848.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "d0e3275de85cdca64bfd0de9cf05264f5970c12b"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-034.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3849.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "bfb1106507c042a26c737c027996a90159c22cfa"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-035.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3850.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "857f2ce4792b096714c4d3ebbe6011f55e5c7df6"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-036.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3853.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "488dea85961af7f7a0e0629a441f2aa4202e0558"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-037.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3854.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "1ff5a170f60a6e4211058277b62fe854437cf0bf"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-038.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3855.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "3bb8c52afd3b39c6c4d94bf40e953ef48bb25a92"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-039.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3856.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "b7d40bb44ea3a35d969a6eb0a84e6139d28d9616"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-040.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3857.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "629d558e74c10767f91f4b2d8147ad9f17fbd7fe"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-041.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3858.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "ac38bcb4b1c2367dfed4110a57d65d5090c814fd"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-042.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3862.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "5ab218ac04ab9eb980e3670a42014864d6373218"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-043.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3864.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "e9cb42d62c0ae48ae00bcbf1021c4febdf6bc64c"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-044.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3865.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "9f9d32e071f25e35aae0c9363510ef1be56877d2"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-045.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3868.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "7a97fd8ca49cfd7ffa1a50c8bc7478484330c0ca"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-046.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3875.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "a1d246710cb035a2a3a2c5f6c126470b76871b70"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-047.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3876.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "079aea309233ce229196558024c9763a8db1218c"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-048.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3877.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "feee515ca51b71da0f5b6be51ab57305d52416cf"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-049.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3878.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "6f46153f07ca0cdba36aa7d16abe27e089f9e998"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-050.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3879.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "98b5da7cf8cba54f75415c3851f999cc793886ce"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-051.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3880.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "c813c0c6079d2d43c82be03b36a202e9be7460d0"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-052.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3881.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "e86a9cb3dfde8a97047817171f10edbbc25430b7"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-053.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3882.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "ba8742e63d169a1614f451c4220ab5bfda9d4d42"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-054.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3883.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "ebdb5d7e822d9e23f0ab659ff486227ea8bc65ac"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-055.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3884.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "8984d2187fac8b31798292dd78fe995cff867dd7"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-056.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3885.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "cd24a5cc53e1c61d0d8295f25c6bd4792e862d40"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-057.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3886.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "05b7488b1f600382d0e2a533d05a05dec6c194ff"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-058.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3887.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "63cbc654adb90a55be7861483f24049a069cf916"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-059.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3888.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "22308529157f053a265e53fcbfb527db405400cc"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-060.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3889.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "12f56551f3a9376d4a7c62f5619530228d87bb37"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-061.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3890.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "57922c1520675ed77f52cc1648601ae85d610050"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-062.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3891.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "482e725806bdb3e93c693ea109d8fcc658422c4c"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-063.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3892.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "a5c200e37a2b7a55a71cdacbffb2019a9c94fbb7"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-064.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3893.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "082d840ea648552965e76f87cc4271aadf1ba056"
+    },
+    {
+      "category": "kitchen",
+      "filename": "angelo-kitchen-remodel-065.jpg",
+      "original_path": "gallery/Kitchen Remodel/IMG_3894.jpg",
+      "tags": [
+        "remodel",
+        "renovation",
+        "before-after",
+        "residential",
+        "kitchen"
+      ],
+      "sha1": "af1bd55eaa249f6ab00d638f4fc17d21d84a81d5"
+    }
+  ]
+}
