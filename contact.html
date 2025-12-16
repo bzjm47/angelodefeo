@@ -5,19 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Submit a Request — Ask Angelo</title>
   <meta name="description" content="Submit a request to Ask Angelo. Remodeling, repairs, and maintenance.">
-  <link rel="icon" href="/assets/icons/favicon.svg">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="icon" href="assets/icons/favicon.svg">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
   <header class="header">
     <div class="container nav">
       <a class="brand" href="/" aria-label="Ask Angelo home">
-        <img class="brand-logo" src="/assets/logo.png" alt="Ask Angelo, LLC logo">
+        <img class="brand-logo" src="assets/logo.png" alt="Ask Angelo, LLC logo">
       </a>
       <div class="nav-right">
-        <a class="nav-link" href="/gallery.html">Gallery</a>
-        <a class="nav-cta" href="/contact.html">Submit a request</a>
+        <a class="nav-link" href="gallery.html">Gallery</a>
+        <a class="nav-cta" href="contact.html">Submit a request</a>
       </div>
     </div>
   </header>
@@ -28,7 +28,7 @@
       <p class="muted">Tell me what’s going on. I’ll reply with next steps, an estimate, or a couple quick questions.</p>
 
       <div class="panel" style="margin-top:14px">
-        <form name="request" method="POST" action="/thanks.html" data-netlify="true" data-netlify-honeypot="bot-field" class="contact-form">
+        <form name="request" method="POST" action="thanks.html" data-netlify="true" data-netlify-honeypot="bot-field" class="contact-form">
           <input type="hidden" name="form-name" value="request" />
           <p class="visually-hidden">
             <label>Don’t fill this out: <input name="bot-field" /></label>
@@ -96,13 +96,32 @@
         <div class="footer-sub">Remodeling • Repairs • Maintenance</div>
       </div>
       <div class="footer-right">
-        <a class="footer-link" href="/gallery.html">Gallery</a>
+        <a class="footer-link" href="gallery.html">Gallery</a>
         <span class="dot">•</span>
         <span class="footer-sub">© <span id="year"></span></span>
       </div>
     </div>
   </footer>
 
-  <script src="/scripts/main.js"></script>
+  <script src="scripts/main.js"></script>
+
+  <script>
+  // prefill from ?q=
+  (function(){
+    const qs = new URLSearchParams(window.location.search);
+    const q = (qs.get('q') || '').trim();
+    if(!q) return;
+    const msg = document.querySelector('textarea[name="message"], textarea[name="details"], textarea, input[name="message"], input[name="details"]');
+    if(msg){
+      const prefix = 'Request: ';
+      if((msg.value || '').trim().length === 0){
+        msg.value = prefix + q;
+      } else if(!msg.value.includes(q)){
+        msg.value = msg.value + "\n" + prefix + q;
+      }
+    }
+  })();
+  </script>
+
 </body>
 </html>

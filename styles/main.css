@@ -349,3 +349,24 @@ input[type="search"]:focus{
 
 
 .visually-hidden{position:absolute!important;height:1px;width:1px;overflow:hidden;clip:rect(1px,1px,1px,1px);white-space:nowrap;}
+
+
+/* --- Gallery auto-loader additions --- */
+.gimg{
+  width:100%;
+  height:180px;
+  object-fit:cover;
+  border-radius:16px;
+  display:block;
+  margin-bottom:12px;
+}
+.gpills{ display:flex; flex-wrap:wrap; gap:8px; }
+.pill{
+  display:inline-block;
+  padding:6px 10px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,0.12);
+  font-size:12px;
+  line-height:1;
+  opacity:0.92;
+}

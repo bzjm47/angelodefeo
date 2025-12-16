@@ -61,7 +61,7 @@
       `Hi Angelo,\n\nI need help with: ${query.trim() || '[describe here]'}\n\nLocation (city): \nTimeline: \nBudget range (optional): \n\nPhotos (if any): \n\nThanks!`
     );
     if (ctaTalk) {
-      ctaTalk.href = `/contact.html?q=${encodeURIComponent(q)}`;
+      ctaTalk.href = `contact.html?q=${encodeURIComponent(q)}`;
     }
 // If nothing matched, still show the CTA and unhide all cards after a moment so the gallery isn't empty.
     if (matches === 0) {
