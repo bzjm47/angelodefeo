@@ -111,15 +111,40 @@
       const q = (askInput?.value || '').trim();
       const matches = applyFilter(q);
       showResult(q, matches);
-      // Scroll to gallery when asked (feels like "routing").
+
+      // If we're on a dedicated gallery page, keep the URL in sync.
+      if (galleryGrid) {
+        const url = new URL(window.location.href);
+        if (q) url.searchParams.set('q', q);
+        else url.searchParams.delete('q');
+        window.history.replaceState({}, '', url.toString());
+        return;
+      }
+
+      // Single-page fallback: scroll to gallery section if present.
       const gal = document.getElementById('gallery');
       if (gal) gal.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   }
 
-  // Contact form opens email
-  const contactForm = $('#contactForm');
-  if (contactForm) {
+  // If a query is provided in the URL (e.g., /gallery.html?q=...), auto-run the filter.
+  if (askInput && galleryGrid) {
+    const url = new URL(window.location.href);
+    const q = (url.searchParams.get('q') || '').trim();
+    if (q) {
+      askInput.value = q;
+      const matches = applyFilter(q);
+      showResult(q, matches);
+    }
+  }
+
+
+  // Contact form: if Netlify Forms is enabled, allow normal POST submission.
+// Otherwise fall back to opening the user's email client (mailto).
+const contactForm = $('#contactForm');
+if (contactForm) {
+  const usesNetlify = contactForm.hasAttribute('data-netlify');
+  if (!usesNetlify) {
     contactForm.addEventListener('submit', (e) => {
       e.preventDefault();
       const fd = new FormData(contactForm);
@@ -130,10 +155,21 @@
 
       const subject = encodeURIComponent(`Ask Angelo — ${city || 'Ventura County'} request`);
       const body = encodeURIComponent(
-        `Hi Angelo,\n\nName: ${name}\nCity: ${city}\nBest contact: ${reply}\n\nDetails:\n${msg}\n\n(Attach photos if you have them.)\n`
+        `Hi Angelo,
+
+Name: ${name}
+City: ${city}
+Best contact: ${reply}
+
+Details:
+${msg}
+
+(Attach photos if you have them.)
+`
       );
 
       window.location.href = `mailto:ask@angelodefeo.com?subject=${subject}&body=${body}`;
     });
   }
+}
 })();

@@ -3,60 +3,116 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Project Gallery — Before & After</title>
-  <meta name="description" content="See remodeling and handyman project results across Ventura County, including before/after transformations.">
+  <title>Gallery — Ask Angelo</title>
+  <meta name="description" content="Project gallery — remodeling, repairs, and maintenance.">
   <link rel="icon" href="/assets/icons/favicon.svg">
   <link rel="manifest" href="/site.webmanifest">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Project Gallery — Before & After">
-  <meta property="og:description" content="See remodeling and handyman project results across Ventura County, including before/after transformations.">
-  <meta property="og:image" content="/assets/icons/og.png">
   <link rel="stylesheet" href="/styles/main.css">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "LocalBusiness", "name": "Angelo DeFeo II \u2014 Remodeling & Handyman", "description": "Residential remodeling, renovation, and handyman services in Ventura County and surrounding areas.", "url": "https://www.angelodefeo.com", "telephone": "+1-805-377-4771", "areaServed": "Ventura County, California", "email": "angelo.defeo90@yahoo.com", "image": "https://www.angelodefeo.com/assets/icons/favicon.svg", "address": {"@type": "PostalAddress", "addressRegion": "CA", "addressCountry": "US"}, "sameAs": []}</script>
 </head>
 <body>
-<header class="header">
-  <div class="container nav">
-    <a class="brand" href="/"><span class="logo" aria-hidden="true"></span><span class="name">Angelo DeFeo II</span></a>
-    <nav>
-      <a href="/services.html">Services</a>
-      <a href="/gallery.html">Gallery</a>
-      <a href="/contact.html">Contact</a>
-    </nav>
-  </div>
-</header>
-<main class="container">
-
-<section class="section">
-  <h1>Project Gallery</h1>
-  <p>Download your photos from Dropbox and place them in <code>/assets/images/gallery/</code>. Update the image paths below to match your filenames.</p>
-</section>
-
-<section class="gallery">
-  <figure class="figure">
-    <img src="/assets/images/gallery/sample-1.jpg" alt="Finished project sample">
-  </figure>
-
-  <!-- Before/After slider example -->
-  <figure class="ba" aria-label="Before and after comparison">
-    <img src="/assets/images/gallery/kitchen-before.jpg" alt="Kitchen before">
-    <div class="after" aria-hidden="true">
-      <img src="/assets/images/gallery/kitchen-after.jpg" alt="" aria-hidden="true">
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="/" aria-label="Ask Angelo home">
+        <img class="brand-logo" src="/assets/logo.png" alt="Ask Angelo, LLC logo">
+      </a>
+      <div class="nav-right">
+        <a class="nav-link" href="/gallery.html">Gallery</a>
+        <a class="nav-link" href="/contact.html">Request</a>
+        <a class="nav-cta" href="mailto:ask@angelodefeo.com?subject=Quote%20request%20from%20angelodefeo.com">Email</a>
+      </div>
     </div>
-    <div class="handle" aria-hidden="true"></div>
-    <div class="knob" aria-hidden="true" title="Drag to compare"></div>
-    <span class="sr-only">Drag to compare before and after</span>
-  </figure>
-</section>
+  </header>
 
-<script src="/scripts/before-after.js"></script>
+  <main class="container">
+    <section class="section">
+      <h1 class="h1">Project Gallery</h1>
+      <p class="muted">Search to jump to relevant work, or browse everything.</p>
 
-</main>
-<footer class="footer">
-  <div class="container">
-    <div>© 2025 Angelo DeFeo II • Ventura County • <a href="/contact.html" class="badge">Get a quote</a></div>
-  </div>
-</footer>
-<script src="/scripts/main.js"></script>
+      <form class="ask ask-compact" id="askForm" autocomplete="off">
+        <label class="sr-only" for="askInput">Search the gallery</label>
+        <input id="askInput" type="text" inputmode="search" placeholder="Search (e.g., tile, faucet, fence, outlet, drywall)…" />
+        <button class="btn" type="submit">Search</button>
+      </form>
+
+      <div class="actions" id="result" hidden>
+        <div class="actions-left">
+          <div class="actions-title">Matches for: <span id="resultQuery"></span></div>
+          <div class="actions-sub" id="resultSub">Showing matching work in the gallery.</div>
+        </div>
+        <div class="actions-right">
+          <a class="btn btn-ghost" href="#galleryGrid">What I’ve done before</a>
+          <a class="btn" id="ctaTalk" href="/contact.html">Let’s talk about it</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="grid" id="galleryGrid" aria-label="Gallery items">
+        <article class="gcard" data-tags="plumbing faucet leak sink garbage disposal">
+          <div class="gmeta">
+            <div class="gtitle">Kitchen Sink / Faucet Fix</div>
+            <div class="gtags">Plumbing • Leak • Sink</div>
+          </div>
+        </article>
+
+        <article class="gcard" data-tags="electrical outlet switch light fixture fan">
+          <div class="gmeta">
+            <div class="gtitle">Outlet / Switch / Fixture Work</div>
+            <div class="gtags">Electrical • Outlet • Switch</div>
+          </div>
+        </article>
+
+        <article class="gcard" data-tags="drywall patch texture paint hole repair">
+          <div class="gmeta">
+            <div class="gtitle">Drywall Patch & Texture</div>
+            <div class="gtags">Drywall • Patch • Paint</div>
+          </div>
+        </article>
+
+        <article class="gcard" data-tags="tile grout shower bathroom kitchen backsplash">
+          <div class="gmeta">
+            <div class="gtitle">Tile / Grout Refresh</div>
+            <div class="gtags">Tile • Grout • Bath</div>
+          </div>
+        </article>
+
+        <article class="gcard" data-tags="carpentry trim door hardware cabinet">
+          <div class="gmeta">
+            <div class="gtitle">Carpentry & Trim</div>
+            <div class="gtags">Carpentry • Trim • Doors</div>
+          </div>
+        </article>
+
+        <article class="gcard" data-tags="outdoor fence gate deck patio repair">
+          <div class="gmeta">
+            <div class="gtitle">Outdoor / Fence Repair</div>
+            <div class="gtags">Outdoor • Fence • Gate</div>
+          </div>
+        </article>
+      </div>
+
+      <p class="muted" style="margin-top:14px">
+        Want this to feel “smart”? Add your real project keywords to each card’s <code>data-tags</code> and the search becomes a router.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <div class="footer-title">Ask Angelo, LLC</div>
+        <div class="footer-sub">Remodeling • Repairs • Maintenance</div>
+      </div>
+      <div class="footer-right">
+        <a class="footer-link" href="mailto:ask@angelodefeo.com">ask@angelodefeo.com</a>
+        <span class="dot">•</span>
+        <a class="footer-link" href="/contact.html">Submit a request</a>
+        <span class="dot">•</span>
+        <span class="footer-sub">© <span id="year"></span></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/scripts/main.js"></script>
 </body>
 </html>
