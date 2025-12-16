@@ -29,40 +29,53 @@
       <p class="muted">Tell me what’s going on. I’ll reply with next steps, an estimate, or a couple quick questions.</p>
 
       <div class="panel" style="margin-top:14px">
-        <form id="contactForm" name="request" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks.html">
-          <input type="hidden" name="form-name" value="request">
-          <div class="hidden">
-            <label>Don’t fill this out if you’re human: <input name="bot-field"></label>
-          </div>
+        <form name="request" method="POST" action="/thanks.html" data-netlify="true" data-netlify-honeypot="bot-field" class="contact-form">
+          <input type="hidden" name="form-name" value="request" />
+          <p class="visually-hidden">
+            <label>Don’t fill this out: <input name="bot-field" /></label>
+          </p>
+
           <div class="row">
             <div class="field">
               <label for="name">Name</label>
-              <input id="name" name="name" autocomplete="name" required>
+              <input id="name" name="name" type="text" autocomplete="name" required />
             </div>
             <div class="field">
-              <label for="email">Email</label>
-              <input id="email" name="email" type="email" autocomplete="email" required>
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" />
             </div>
           </div>
 
           <div class="row">
             <div class="field">
-              <label for="phone">Phone (optional)</label>
-              <input id="phone" name="phone" inputmode="tel" autocomplete="tel">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" />
             </div>
             <div class="field">
-              <label for="city">City (optional)</label>
-              <input id="city" name="city" autocomplete="address-level2">
+              <label for="category">Category</label>
+              <select id="category" name="category">
+                <option value="">Select…</option>
+                <option>Plumbing</option>
+                <option>Electrical</option>
+                <option>Drywall</option>
+                <option>Kitchen/Bath</option>
+                <option>Outdoor</option>
+                <option>General Repair</option>
+              </select>
             </div>
           </div>
 
           <div class="field">
-            <label for="query">What do you need help with?</label>
-            <textarea id="query" name="query" rows="5" placeholder="A couple sentences is perfect."></textarea>
+            <label for="message">What’s going on?</label>
+            <textarea id="message" name="message" rows="6" placeholder="Describe the issue, timing, and anything you’ve tried. Photos help (mention you have them)."></textarea>
           </div>
 
-          <button class="btn" type="submit">Send request</button>
-          <p class="muted" style="margin-top:10px">This uses your email app (no login, no spam).</p>
+          <div class="row row-actions">
+            <button class="btn btn-primary" type="submit">Send Request</button>
+            <a class="btn btn-ghost" href="tel:+18057902759">Call Angelo: (805) 790-2759</a>
+          </div>
+
+          <p class="form-note">By submitting, you agree Angelo can contact you about this request. You’ll get a confirmation screen after sending.</p>
         </form>
       </div>
 
@@ -70,7 +83,7 @@
         <div class="kicker">Direct contact</div>
         <p style="margin:8px 0 0">
           <a class="footer-link" href="mailto:ask@angelodefeo.com">ask@angelodefeo.com</a><br>
-          <a class="footer-link" href="tel:+18057902759">Call/Text: (805) 790-2759</a>
+          <a class="footer-link" href="tel:+1(805) 790-2759">Call/Text: (805) 790-2759</a>
         </p>
       </div>
     </section>

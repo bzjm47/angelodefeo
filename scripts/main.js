@@ -139,37 +139,35 @@
   }
 
 
-  // Contact form: if Netlify Forms is enabled, allow normal POST submission.
-// Otherwise fall back to opening the user's email client (mailto).
-const contactForm = $('#contactForm');
-if (contactForm) {
-  const usesNetlify = contactForm.hasAttribute('data-netlify');
-  if (!usesNetlify) {
+  // Contact form opens email
+  const contactForm = $('#contactForm');
+  if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
+      // If this form is wired to Netlify Forms, allow normal POST submit.
+      if (contactForm.hasAttribute('data-netlify')) return;
+
+      // Fallback: open an email draft (legacy behavior)
       e.preventDefault();
       const fd = new FormData(contactForm);
       const name = String(fd.get('name') || '').trim();
-      const city = String(fd.get('city') || '').trim();
-      const reply = String(fd.get('reply') || '').trim();
+      const phone = String(fd.get('phone') || '').trim();
+      const email = String(fd.get('email') || '').trim();
+      const category = String(fd.get('category') || '').trim();
       const msg = String(fd.get('message') || '').trim();
 
-      const subject = encodeURIComponent(`Ask Angelo — ${city || 'Ventura County'} request`);
+      const subject = encodeURIComponent(`Ask Angelo Request${category ? ' - ' + category : ''}`);
       const body = encodeURIComponent(
-        `Hi Angelo,
+        `Name: ${name}
+Phone: ${phone}
+Email: ${email}
+Category: ${category}
 
-Name: ${name}
-City: ${city}
-Best contact: ${reply}
-
-Details:
+Issue:
 ${msg}
-
-(Attach photos if you have them.)
 `
       );
 
       window.location.href = `mailto:ask@angelodefeo.com?subject=${subject}&body=${body}`;
     });
   }
-}
 })();
