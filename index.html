@@ -3,79 +3,199 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ventura County Remodeling & Handyman — Angelo DeFeo II</title>
-  
-  <meta name="description" content="Remodeling, renovation, and handyman services in Ventura County: kitchens, baths, flooring, painting, custom carpentry, and maintenance. Project-managed, on-time, and done right.">
-  
+  <title>Ask Angelo — If it needs fixing… Ask Angelo</title>
+
+  <meta name="description" content="Ask Angelo. Describe what you need fixed and we’ll show similar work and help you get a quote.">
+
+  <link rel="icon" href="/assets/icons/favicon.svg">
   <link rel="manifest" href="/site.webmanifest">
+
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Ventura County Remodeling & Handyman — Angelo DeFeo II">
-  <meta property="og:description" content="Remodeling, renovation, and handyman services in Ventura County: kitchens, baths, flooring, painting, custom carpentry, and maintenance. Project-managed, on-time, and done right.">
-  <meta property="og:image" content="/assets/icons/og.png">
+  <meta property="og:title" content="Ask Angelo — If it needs fixing… Ask Angelo">
+  <meta property="og:description" content="Describe what you need fixed and we’ll point you to similar work or get you a quote.">
+  <meta property="og:image" content="/assets/logo.png">
+
   <link rel="stylesheet" href="/styles/main.css">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "LocalBusiness", "name": "Angelo DeFeo II \u2014 Remodeling & Handyman", "description": "Residential remodeling, renovation, and handyman services in Ventura County and surrounding areas.", "url": "https://www.angelodefeo.com", "telephone": "+1-805-377-4771", "areaServed": "Ventura County, California", "email": "angelo.defeo90@yahoo.com", "image": "https://www.angelodefeo.com/assets/icons/favicon.svg", "address": {"@type": "PostalAddress", "addressRegion": "CA", "addressCountry": "US"}, "sameAs": []}</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Ask Angelo, LLC",
+    "description": "Handyman and remodeling work. Tell us what you need fixed and we’ll help you get it done.",
+    "url": "https://www.angelodefeo.com",
+    "telephone": "+1-805-377-4771",
+    "areaServed": "Ventura County, California",
+    "email": "ask@angelodefeo.com",
+    "image": "https://www.angelodefeo.com/assets/logo.png",
+    "address": { "@type": "PostalAddress", "addressRegion": "CA", "addressCountry": "US" }
+  }
+  </script>
 </head>
+
 <body>
-<header class="header">
-  <div class="container nav">
-    <a class="brand" href="/"><span class="logo" aria-label="AD">AD</span><span class="name">Angelo DeFeo II</span></a>
-    <nav>
-      <a href="/services.html">Services</a>
-      <a href="/gallery.html">Gallery</a>
-      <a href="/contact.html">Contact</a>
-    </nav>
-  </div>
-</header>
-<main class="container">
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="/" aria-label="Ask Angelo home">
+        <img class="brand-logo" src="/assets/logo.png" alt="Ask Angelo, LLC logo">
+      </a>
 
-<section class="hero">
-  <div>
-    <div class="kicker">Ventura County & Surrounding Areas</div>
-    <h1>Remodeling & Handyman work — done with <em>craftsmanship, precision, and pride</em>.</h1>
-    <p>Over 10 years of hands‑on experience in residential remodeling and professional project management. Kitchens, baths, flooring, painting, custom carpentry, and reliable maintenance.</p>
-    <p><a class="btn" href="/contact.html">Request a quote</a></p>
-  </div>
-</section>
+      <div class="nav-right">
+        <a class="nav-link" href="#gallery">Gallery</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        <a class="nav-cta" href="mailto:ask@angelodefeo.com?subject=Quote%20request%20from%20angelodefeo.com">Email</a>
+      </div>
+    </div>
+  </header>
 
-<section class="section grid">
-  <article class="card">
-    <h2>Remodeling Services</h2>
-    <ul>
-      <li>Full kitchen and bathroom remodels</li>
-      <li>Tile, backsplash, and flooring installation</li>
-      <li>Countertops, drywall, and painting</li>
-    </ul>
-  </article>
-  <article class="card">
-    <h2>Handyman & Maintenance</h2>
-    <ul>
-      <li>Minor plumbing and electrical fixes</li>
-      <li>Door & window install/repair</li>
-      <li>Fixtures, mounting, patching, caulking, weatherproofing</li>
-    </ul>
-  </article>
-  <article class="card">
-    <h2>Outdoor & Custom Projects</h2>
-    <ul>
-      <li>Fencing and gates</li>
-      <li>Exterior painting and finishes</li>
-      <li>Custom woodwork & design projects</li>
-    </ul>
-  </article>
-</section>
+  <main class="container">
+    <section class="hero">
+      <div class="hero-copy">
+        <h1>If it needs fixing… <span class="nowrap">Ask Angelo.</span></h1>
+        <p class="sub">Type what you need help with. We’ll show similar work from the gallery or send your request straight to Angelo.</p>
 
-<section class="section card">
-  <h2>Why homeowners choose Angelo</h2>
-  <p><strong>Organization meets craftsmanship.</strong> Every project is carefully scoped, scheduled, and executed to exact specifications — communicating clearly and keeping your home clean and safe.</p>
-  <p class="badge">Licensed & insured • Local • Detail‑oriented</p>
-</section>
+        <form class="ask" id="askForm" autocomplete="off">
+          <label class="sr-only" for="askInput">Describe what you need fixed</label>
+          <div class="ask-row">
+            <input id="askInput" name="q" type="search" placeholder='e.g., “leaky faucet”, “tile backsplash”, “drywall patch”, “fence gate”…' />
+            <button class="btn" type="submit">Ask</button>
+          </div>
 
-</main>
-<footer class="footer">
-  <div class="container">
-    <div>© 2025 Angelo DeFeo II • Ventura County • <a href="/contact.html" class="badge">Get a quote</a></div>
-  </div>
-</footer>
-<script src="/scripts/main.js"></script>
+          <div class="chips" aria-label="Quick picks">
+            <button type="button" class="chip" data-q="Plumbing">Plumbing</button>
+            <button type="button" class="chip" data-q="Electrical">Electrical</button>
+            <button type="button" class="chip" data-q="Drywall">Drywall</button>
+            <button type="button" class="chip" data-q="Painting">Painting</button>
+            <button type="button" class="chip" data-q="Tile">Tile</button>
+            <button type="button" class="chip" data-q="Carpentry">Carpentry</button>
+            <button type="button" class="chip" data-q="Outdoor / Fence">Outdoor / Fence</button>
+            <button type="button" class="chip" data-q="Kitchen / Bath">Kitchen / Bath</button>
+          </div>
+
+          <div class="actions" id="actions" hidden>
+            <div class="actions-left">
+              <div class="actions-title" id="actionsTitle">Results</div>
+              <div class="actions-sub" id="actionsSub">Showing matching work in the gallery.</div>
+            </div>
+            <div class="actions-right">
+              <button class="btn btn-ghost" type="button" id="viewMatchesBtn">What I’ve done before</button>
+              <a class="btn" id="talkBtn" href="#">Let’s talk about it</a>
+            </div>
+          </div>
+
+          <p class="micro">Prefer a call or text? <a href="tel:+18053774771">(805) 377‑4771</a> • <a href="mailto:ask@angelodefeo.com">ask@angelodefeo.com</a></p>
+        </form>
+      </div>
+
+      <div class="hero-side card">
+        <h2 class="h2">Common work</h2>
+        <ul class="bullets">
+          <li>Repairs & maintenance</li>
+          <li>Plumbing / electrical fixes</li>
+          <li>Drywall, painting, tile</li>
+          <li>Doors, trim, carpentry</li>
+          <li>Outdoor / fence / gates</li>
+        </ul>
+        <div class="badge-row">
+          <span class="badge">Local • Ventura County</span>
+          <span class="badge">Clean worksite</span>
+          <span class="badge">Detail‑oriented</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="gallery">
+      <div class="section-head">
+        <h2 class="h2">Gallery</h2>
+        <p class="muted">Search above to filter. (Replace these placeholders with real project photos whenever you’re ready.)</p>
+      </div>
+
+      <div class="gallery" id="galleryGrid">
+        <article class="gcard" data-tags="kitchen bath tile backsplash remodel plumbing">
+          <div class="gthumb placeholder" aria-hidden="true"></div>
+          <div class="gbody">
+            <div class="gtitle">Kitchen / Bath upgrades</div>
+            <div class="gtags">Remodel • Tile • Plumbing</div>
+          </div>
+        </article>
+
+        <article class="gcard" data-tags="drywall patch texture paint">
+          <div class="gthumb placeholder" aria-hidden="true"></div>
+          <div class="gbody">
+            <div class="gtitle">Drywall patch + texture</div>
+            <div class="gtags">Drywall • Paint</div>
+          </div>
+        </article>
+
+        <article class="gcard" data-tags="painting interior exterior trim">
+          <div class="gthumb placeholder" aria-hidden="true"></div>
+          <div class="gbody">
+            <div class="gtitle">Interior painting</div>
+            <div class="gtags">Paint • Trim</div>
+          </div>
+        </article>
+
+        <article class="gcard" data-tags="electrical light fixture outlet switch">
+          <div class="gthumb placeholder" aria-hidden="true"></div>
+          <div class="gbody">
+            <div class="gtitle">Fixtures / switches / outlets</div>
+            <div class="gtags">Electrical</div>
+          </div>
+        </article>
+
+        <article class="gcard" data-tags="carpentry door trim baseboard install">
+          <div class="gthumb placeholder" aria-hidden="true"></div>
+          <div class="gbody">
+            <div class="gtitle">Doors + trim work</div>
+            <div class="gtags">Carpentry</div>
+          </div>
+        </article>
+
+        <article class="gcard" data-tags="outdoor fence gate repair">
+          <div class="gthumb placeholder" aria-hidden="true"></div>
+          <div class="gbody">
+            <div class="gtitle">Fence / gate repair</div>
+            <div class="gtags">Outdoor</div>
+          </div>
+        </article>
+      </div>
+
+      <div class="no-results" id="noResults" hidden>
+        No close matches yet — click “Let’s talk about it” and we’ll figure it out.
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="contact card">
+        <div>
+          <h2 class="h2">Contact</h2>
+          <p class="muted">Send a quick description and a couple photos if you have them. Include your city + timeline.</p>
+        </div>
+
+        <div class="contact-actions">
+          <a class="btn" href="mailto:ask@angelodefeo.com?subject=Quote%20request%20from%20angelodefeo.com">Email Angelo</a>
+          <a class="btn btn-ghost" href="tel:+18053774771">Call / text</a>
+        </div>
+
+        <div class="contact-meta">
+          <div><span class="label">Email</span> <a href="mailto:ask@angelodefeo.com">ask@angelodefeo.com</a></div>
+          <div><span class="label">Phone</span> <a href="tel:+18053774771">(805) 377‑4771</a></div>
+          <div><span class="label">Area</span> Ventura County + surrounding</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Ask Angelo, LLC</div>
+      <div class="footer-links">
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/scripts/ask.js"></script>
 </body>
 </html>
