@@ -1,118 +1,86 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Gallery — Ask Angelo</title>
-  <meta name="description" content="Project gallery — remodeling, repairs, and maintenance.">
-  <link rel="icon" href="assets/icons/favicon.svg">
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="stylesheet" href="styles/main.css">
+  <meta charset="UTF-8" />
+  <title>Gallery | Angelo DeFeo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    .gallery-section {
+      margin: 3rem auto;
+      max-width: 1200px;
+      padding: 0 1rem;
+    }
+
+    .gallery-section h2 {
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .gallery-grid img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 6px;
+      object-fit: cover;
+      transition: transform 0.2s ease;
+    }
+
+    .gallery-grid img:hover {
+      transform: scale(1.02);
+    }
+  </style>
 </head>
+
 <body>
-  <header class="header">
-    <div class="container nav">
-      <a class="brand" href="/" aria-label="Ask Angelo home">
-        <img class="brand-logo" src="assets/logo.png" alt="Ask Angelo, LLC logo">
-      </a>
-      <div class="nav-right">
-        <a class="nav-link" href="gallery.html">Gallery</a>
-        <a class="nav-cta" href="contact.html">Submit a request</a>
-      </div>
-    </div>
+
+  <header>
+    <h1>Our Work</h1>
   </header>
 
-  <main class="container">
-    <section class="section">
-      <h1 class="h1">Project Gallery</h1>
-      <p class="muted">Search to jump to relevant work, or browse everything.</p>
-
-      <form class="ask ask-compact" id="askForm" autocomplete="off">
-        <label class="sr-only" for="askInput">Search the gallery</label>
-        <input id="askInput" type="text" inputmode="search" placeholder="Search (e.g., tile, faucet, fence, outlet, drywall)…" />
-        <button class="btn" type="submit">Search</button>
-      </form>
-
-      <div class="actions" id="result" hidden>
-        <div class="actions-left">
-          <div class="actions-title">Matches for: <span id="resultQuery"></span></div>
-          <div class="actions-sub" id="resultSub">Showing matching work in the gallery.</div>
-        </div>
-        <div class="actions-right">
-          <a class="btn btn-ghost" href="#galleryGrid">What I’ve done before</a>
-          <a class="btn" id="ctaTalk" href="contact.html">Let’s talk about it</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="grid" id="galleryGrid" aria-label="Gallery items">
-        <article class="gcard" data-tags="plumbing faucet leak sink garbage disposal">
-          <div class="gmeta">
-            <div class="gtitle">Kitchen Sink / Faucet Fix</div>
-            <div class="gtags">Plumbing • Leak • Sink</div>
-          </div>
-        </article>
-
-        <article class="gcard" data-tags="electrical outlet switch light fixture fan">
-          <div class="gmeta">
-            <div class="gtitle">Outlet / Switch / Fixture Work</div>
-            <div class="gtags">Electrical • Outlet • Switch</div>
-          </div>
-        </article>
-
-        <article class="gcard" data-tags="drywall patch texture paint hole repair">
-          <div class="gmeta">
-            <div class="gtitle">Drywall Patch & Texture</div>
-            <div class="gtags">Drywall • Patch • Paint</div>
-          </div>
-        </article>
-
-        <article class="gcard" data-tags="tile grout shower bathroom kitchen backsplash">
-          <div class="gmeta">
-            <div class="gtitle">Tile / Grout Refresh</div>
-            <div class="gtags">Tile • Grout • Bath</div>
-          </div>
-        </article>
-
-        <article class="gcard" data-tags="carpentry trim door hardware cabinet">
-          <div class="gmeta">
-            <div class="gtitle">Carpentry & Trim</div>
-            <div class="gtags">Carpentry • Trim • Doors</div>
-          </div>
-        </article>
-
-        <article class="gcard" data-tags="outdoor fence gate deck patio repair">
-          <div class="gmeta">
-            <div class="gtitle">Outdoor / Fence Repair</div>
-            <div class="gtags">Outdoor • Fence • Gate</div>
-          </div>
-        </article>
-      </div>
-
-      <p class="muted" style="margin-top:14px">
-        Want this to feel “smart”? Add your real project keywords to each card’s <code>data-tags</code> and the search becomes a router.
-      </p>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container footer-inner">
-      <div class="footer-left">
-        <div class="footer-title">Ask Angelo, LLC</div>
-        <div class="footer-sub">Remodeling • Repairs • Maintenance</div>
-      </div>
-      <div class="footer-right">
-        <a class="footer-link" href="contact.html">Submit a request</a>
-        <span class="dot">•</span>
-        <a class="footer-link" href="tel:+18057902759">Call/Text</a>
-        <span class="dot">•</span>
-        <span class="footer-sub">© <span id="year"></span></span>
-      </div>
+  <!-- Kitchens -->
+  <section class="gallery-section">
+    <h2>Kitchens</h2>
+    <div class="gallery-grid">
+      <img src="assets/gallery/kitchens/kitchen-01.jpg" alt="Kitchen remodel">
+      <img src="assets/gallery/kitchens/kitchen-02.jpg" alt="Kitchen remodel">
     </div>
-  </footer>
+  </section>
 
-  <script src="scripts/main.js"></script>
-  <script src="scripts/gallery-loader.js"></script>
+  <!-- Bathrooms -->
+  <section class="gallery-section">
+    <h2>Bathrooms</h2>
+    <div class="gallery-grid">
+      <img src="assets/gallery/bathrooms/bath-01.jpg" alt="Bathroom remodel">
+      <img src="assets/gallery/bathrooms/bath-02.jpg" alt="Bathroom remodel">
+    </div>
+  </section>
+
+  <!-- Tile Work -->
+  <section class="gallery-section">
+    <h2>Tile Work</h2>
+    <div class="gallery-grid">
+      <img src="assets/gallery/tile/tile-01.jpg" alt="Tile installation">
+    </div>
+  </section>
+
+  <!-- Finish Work -->
+  <section class="gallery-section">
+    <h2>Finish Work</h2>
+    <div class="gallery-grid">
+      <img src="assets/gallery/finish/finish-01.jpg" alt="Finish carpentry">
+    </div>
+  </section>
+
 </body>
 </html>
