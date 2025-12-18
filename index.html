@@ -3,64 +3,57 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ask Angelo — If it needs fixing…</title>
-  <meta name="description" content="Ventura County handyman & remodeling. If it needs fixing… Ask Angelo.">
+  <title>Ask Angelo — If it needs fixing… Ask Angelo</title>
+  <meta name="description" content="Ventura County handyman services. If it needs fixing… Ask Angelo.">
   <link rel="icon" href="assets/icons/favicon.svg">
   <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="styles/main.css">
+  <style>
+    /* Small page-specific tweaks to keep the homepage ultra-clean */
+    .landing { min-height: calc(100vh - 84px); display:flex; align-items:center; }
+    .landing-center { width:100%; max-width:720px; margin:0 auto; text-align:center; padding:48px 16px; }
+    .landing-logo { width:min(420px, 70vw); height:auto; display:block; margin:0 auto 18px; }
+    .landing-tag { margin: 0 0 22px; }
+    .btn-stack { display:grid; gap:12px; margin-top:18px; }
+    .btn-wide { width:100%; justify-content:center; }
+    .subline { margin-top:14px; }
+    @media (min-width: 720px){
+      .btn-stack { grid-template-columns: 1fr 1fr 1fr; }
+    }
+  </style>
 </head>
 <body>
-  <header class="header">
-    <div class="container nav">
-      <a class="brand" href="/" aria-label="Ask Angelo home">
-        <img class="brand-logo" src="assets/ASKA.png" alt="Ask Angelo, LLC logo">
-      </a>
-      <div class="nav-right">
-        <a class="nav-link" href="gallery.html">Gallery</a>
-        <a class="nav-cta" href="contact.html">Submit a request</a>
+
+  <main class="container landing">
+    <section class="landing-center" aria-label="Ask Angelo quick actions">
+      <img class="landing-logo" src="assets/logo.png" alt="Ask Angelo, LLC">
+      <p class="muted landing-tag">If it needs fixing… Ask Angelo</p>
+
+      <div class="btn-stack">
+        <a class="btn btn-primary btn-wide" href="tel:+18053774771">Call / Text</a>
+        <a class="btn btn-ghost btn-wide" href="contact.html">Service Request</a>
+        <a class="btn btn-ghost btn-wide" href="gallery.html">Recent Work</a>
       </div>
-    </div>
-  </header>
 
-  <main class="container">
-    <section class="hero hero-simple">
-      <div class="hero-center">
-        <img class="home-logo" src="assets/logo.png" alt="Ask Angelo, LLC">
-        <h1 class="h1">What can I help you fix?</h1>
-        <p class="muted">Type a quick description (or tap a button). We’ll jump to relevant past work — or you can submit a request.</p>
-
-        <form class="ask" id="askForm" autocomplete="off">
-          <label class="sr-only" for="askInput">Ask Angelo</label>
-          <input id="askInput" type="text" inputmode="search" placeholder="e.g., leaking faucet, drywall patch, new outlet, fence repair…" />
-          <button class="btn" type="submit">Ask</button>
-        </form>
-
-        <div class="chips" aria-label="Popular requests">
-          <button type="button" class="chip" data-q="Plumbing">Plumbing</button>
-          <button type="button" class="chip" data-q="Electrical">Electrical</button>
-          <button type="button" class="chip" data-q="Drywall">Drywall</button>
-          <button type="button" class="chip" data-q="Tile">Tile</button>
-          <button type="button" class="chip" data-q="Outdoor / Fence">Outdoor / Fence</button>
-        </div>
-
-        <div class="hero-links">
-          <a class="btn btn-ghost" href="gallery.html">Browse the gallery</a>
-          <a class="btn" href="contact.html">Submit a request</a>
-        </div>
-      </div>
+      <p class="muted subline">
+        More photos & updates on Instagram:
+        <a class="footer-link" href="https://instagram.com/askangelo805" target="_blank" rel="noopener"> @askangelo805</a>
+      </p>
     </section>
   </main>
 
   <footer class="footer">
     <div class="container footer-inner">
       <div class="footer-left">
-        <div class="footer-title">Ask Angelo, LLC</div>
-        <div class="footer-sub">Remodeling • Repairs • Maintenance</div>
+        <div class="footer-title">Ask Angelo LLC</div>
+        <div class="footer-sub">Handyman Services • Ventura County</div>
       </div>
       <div class="footer-right">
-        <a class="footer-link" href="contact.html">Submit a request</a>
+        <a class="footer-link" href="tel:+18053774771">Call/Text: (805) 377-4771</a>
         <span class="dot">•</span>
-        <a class="footer-link" href="tel:+18053774771">Call/Text</a>
+        <a class="footer-link" href="mailto:ask@angelodefeo.com">ask@angelodefeo.com</a>
+        <span class="dot">•</span>
+        <a class="footer-link" href="https://instagram.com/askangelo805" target="_blank" rel="noopener">Instagram</a>
         <span class="dot">•</span>
         <span class="footer-sub">© <span id="year"></span></span>
       </div>
@@ -68,6 +61,5 @@
   </footer>
 
   <script src="scripts/main.js"></script>
-  <script src="scripts/home.js"></script>
 </body>
 </html>

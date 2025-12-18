@@ -3,31 +3,29 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Submit a Request — Ask Angelo</title>
-  <meta name="description" content="Submit a request to Ask Angelo. Remodeling, repairs, and maintenance.">
+  <title>Service Request — Ask Angelo</title>
+  <meta name="description" content="Submit a service request to Ask Angelo in Ventura County.">
   <link rel="icon" href="assets/icons/favicon.svg">
   <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="styles/main.css">
+  <style>
+    .page-top { text-align:center; padding-top: 26px; }
+    .page-logo { width:min(260px, 60vw); height:auto; display:block; margin:0 auto 10px; }
+  </style>
 </head>
 <body>
-  <header class="header">
-    <div class="container nav">
-      <a class="brand" href="/" aria-label="Ask Angelo home">
-        <img class="brand-logo" src="assets/ASKA.png" alt="Ask Angelo, LLC logo">
-      </a>
-      <div class="nav-right">
-        <a class="nav-link" href="gallery.html">Gallery</a>
-        <a class="nav-cta" href="contact.html">Submit a request</a>
-      </div>
-    </div>
-  </header>
 
   <main class="container">
-    <section class="section">
-      <h1 class="h1">Submit a Request</h1>
-      <p class="muted">Tell me what’s going on. I’ll reply with next steps, an estimate, or a couple quick questions.</p>
+    <section class="page-top">
+      <a href="/" aria-label="Back to home">
+        <img class="page-logo" src="assets/logo.png" alt="Ask Angelo, LLC">
+      </a>
+      <h1 class="h1" style="margin: 6px 0 0;">Service Request</h1>
+      <p class="muted" style="margin: 10px 0 0;">If it needs fixing… Ask Angelo. Describe the job and I’ll follow up with next steps.</p>
+    </section>
 
-      <div class="panel" style="margin-top:14px">
+    <section class="section" style="padding-top: 18px;">
+      <div class="panel">
         <form name="request" method="POST" action="thanks.html" data-netlify="true" data-netlify-honeypot="bot-field" class="contact-form">
           <input type="hidden" name="form-name" value="request" />
           <p class="visually-hidden">
@@ -41,49 +39,50 @@
             </div>
             <div class="field">
               <label for="phone">Phone</label>
-              <input id="phone" name="phone" type="tel" autocomplete="tel" />
+              <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="(805) ___-____" />
             </div>
           </div>
 
           <div class="row">
             <div class="field">
-              <label for="email">Email</label>
+              <label for="email">Email (optional)</label>
               <input id="email" name="email" type="email" autocomplete="email" />
             </div>
             <div class="field">
               <label for="category">Category</label>
               <select id="category" name="category">
                 <option value="">Select…</option>
+                <option>General Repair</option>
                 <option>Plumbing</option>
                 <option>Electrical</option>
                 <option>Drywall</option>
                 <option>Kitchen/Bath</option>
                 <option>Outdoor</option>
-                <option>General Repair</option>
               </select>
             </div>
           </div>
 
           <div class="field">
-            <label for="message">What’s going on?</label>
-            <textarea id="message" name="message" rows="6" placeholder="Describe the issue, timing, and anything you’ve tried. Photos help (mention you have them)."></textarea>
+            <label for="message">What do you need help with?</label>
+            <textarea id="message" name="message" rows="6" placeholder="What’s happening, where, and when? If you have photos, mention it (or DM them on Instagram)."></textarea>
           </div>
 
           <div class="row row-actions">
             <button class="btn btn-primary" type="submit">Send Request</button>
-            <a class="btn btn-ghost" href="mailto:ask@angelodefeo.com?subject=Ask%20Angelo%20Request">Email</a>
-            <a class="btn btn-ghost" href="tel:+18053774771">Call Angelo: (805) 377-4771</a>
+            <a class="btn btn-ghost" href="tel:+18053774771">Call / Text</a>
+            <a class="btn btn-ghost" href="mailto:ask@angelodefeo.com?subject=Ask%20Angelo%20Service%20Request">Email</a>
           </div>
 
-          <p class="form-note">By submitting, you agree Angelo can contact you about this request. You’ll get a confirmation screen after sending.</p>
+          <p class="form-note">By submitting, you agree Ask Angelo LLC can contact you about this request.</p>
         </form>
       </div>
 
       <div class="panel" style="margin-top:14px">
-        <div class="kicker">Direct contact</div>
+        <div class="kicker">Fastest options</div>
         <p style="margin:8px 0 0">
+          <a class="footer-link" href="tel:+18053774771">Call/Text: (805) 377-4771</a><br>
           <a class="footer-link" href="mailto:ask@angelodefeo.com">ask@angelodefeo.com</a><br>
-          <a class="footer-link" href="tel:+18053774771">Call/Text: (805) 377-4771</a>
+          <a class="footer-link" href="https://instagram.com/askangelo805" target="_blank" rel="noopener">Instagram: @askangelo805</a>
         </p>
       </div>
     </section>
@@ -92,11 +91,13 @@
   <footer class="footer">
     <div class="container footer-inner">
       <div class="footer-left">
-        <div class="footer-title">Ask Angelo, LLC</div>
-        <div class="footer-sub">Remodeling • Repairs • Maintenance</div>
+        <div class="footer-title">Ask Angelo LLC</div>
+        <div class="footer-sub">Handyman Services • Ventura County</div>
       </div>
       <div class="footer-right">
-        <a class="footer-link" href="gallery.html">Gallery</a>
+        <a class="footer-link" href="gallery.html">Recent Work</a>
+        <span class="dot">•</span>
+        <a class="footer-link" href="https://instagram.com/askangelo805" target="_blank" rel="noopener">Instagram</a>
         <span class="dot">•</span>
         <span class="footer-sub">© <span id="year"></span></span>
       </div>
@@ -104,14 +105,13 @@
   </footer>
 
   <script src="scripts/main.js"></script>
-
   <script>
   // prefill from ?q=
   (function(){
     const qs = new URLSearchParams(window.location.search);
     const q = (qs.get('q') || '').trim();
     if(!q) return;
-    const msg = document.querySelector('textarea[name="message"], textarea[name="details"], textarea, input[name="message"], input[name="details"]');
+    const msg = document.querySelector('textarea[name="message"]');
     if(msg){
       const prefix = 'Request: ';
       if((msg.value || '').trim().length === 0){
@@ -122,6 +122,5 @@
     }
   })();
   </script>
-
 </body>
 </html>

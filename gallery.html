@@ -1,86 +1,80 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Gallery | Angelo DeFeo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <link rel="stylesheet" href="style.css" />
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recent Work — Ask Angelo</title>
+  <meta name="description" content="A few examples of recent work from Ask Angelo in Ventura County.">
+  <link rel="icon" href="assets/icons/favicon.svg">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="styles/main.css">
   <style>
-    .gallery-section {
-      margin: 3rem auto;
-      max-width: 1200px;
-      padding: 0 1rem;
-    }
-
-    .gallery-section h2 {
-      margin-bottom: 1rem;
-      font-size: 1.5rem;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 0.5rem;
-    }
-
-    .gallery-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-      gap: 1rem;
-    }
-
-    .gallery-grid img {
-      width: 100%;
-      height: auto;
-      display: block;
-      border-radius: 6px;
-      object-fit: cover;
-      transition: transform 0.2s ease;
-    }
-
-    .gallery-grid img:hover {
-      transform: scale(1.02);
+    .gallery-header { text-align:center; padding: 38px 16px 0; }
+    .gallery-logo { width:min(260px, 60vw); height:auto; display:block; margin:0 auto 10px; }
+    .gallery-grid { display:grid; grid-template-columns: 1fr; gap:14px; margin: 18px 0 10px; }
+    .cardish { border-radius: 12px; overflow:hidden; }
+    .cardish img { width:100%; height:auto; display:block; object-fit:cover; }
+    .cap { padding:10px 12px; }
+    @media (min-width: 820px){
+      .gallery-grid { grid-template-columns: repeat(3, 1fr); }
     }
   </style>
 </head>
-
 <body>
 
-  <header>
-    <h1>Our Work</h1>
-  </header>
+  <main class="container">
+    <section class="gallery-header" aria-label="Recent work">
+      <a href="/" aria-label="Back to home">
+        <img class="gallery-logo" src="assets/logo.png" alt="Ask Angelo, LLC">
+      </a>
+      <h1 class="h1" style="margin: 6px 0 0;">Recent Work</h1>
+      <p class="muted" style="margin: 10px 0 0;">
+        Three quick examples. More photos & updates on Instagram:
+        <a class="footer-link" href="https://instagram.com/askangelo805" target="_blank" rel="noopener">@askangelo805</a>
+      </p>
 
-  <!-- Kitchens -->
-  <section class="gallery-section">
-    <h2>Kitchens</h2>
-    <div class="gallery-grid">
-      <img src="assets/gallery/kitchen/angelo-kitchen-remodel-001.jpg" alt="Kitchen remodel">
-      <img src="assets/gallery/kitchen/angelo-kitchen-remodel-002.jpg" alt="Kitchen remodel">
+      <div class="gallery-grid" style="margin-top:18px;">
+        <figure class="panel cardish">
+          <img src="assets/gallery/kitchen/angelo-kitchen-remodel-001.jpg" alt="Kitchen work example">
+          <figcaption class="cap muted">Kitchen / Bath</figcaption>
+        </figure>
+
+        <figure class="panel cardish">
+          <img src="assets/gallery/bathroom/angelo-bathroom-remodel-001.jpg" alt="Bathroom work example">
+          <figcaption class="cap muted">Bathroom</figcaption>
+        </figure>
+
+        <figure class="panel cardish">
+          <img src="assets/gallery/tile/tile-01.jpg" alt="Tile work example">
+          <figcaption class="cap muted">Tile / Finish</figcaption>
+        </figure>
+      </div>
+
+      <div style="margin: 18px 0 0;">
+        <a class="btn btn-primary" href="tel:+18053774771">Call / Text</a>
+        <a class="btn btn-ghost" href="contact.html" style="margin-left:10px;">Service Request</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <div class="footer-title">Ask Angelo LLC</div>
+        <div class="footer-sub">Handyman Services • Ventura County</div>
+      </div>
+      <div class="footer-right">
+        <a class="footer-link" href="tel:+18053774771">Call/Text: (805) 377-4771</a>
+        <span class="dot">•</span>
+        <a class="footer-link" href="mailto:ask@angelodefeo.com">ask@angelodefeo.com</a>
+        <span class="dot">•</span>
+        <a class="footer-link" href="https://instagram.com/askangelo805" target="_blank" rel="noopener">Instagram</a>
+        <span class="dot">•</span>
+        <span class="footer-sub">© <span id="year"></span></span>
+      </div>
     </div>
-  </section>
+  </footer>
 
-  <!-- Bathrooms -->
-  <section class="gallery-section">
-    <h2>Bathrooms</h2>
-    <div class="gallery-grid">
-      <img src="assets/gallery/bathroom/angelo-bathroom-remodel-001.jpg" alt="Bathroom remodel">
-      <img src="assets/gallery/bathroom/angelo-bathroom-remodel-002.jpg" alt="Bathroom remodel">
-    </div>
-  </section>
-
-  <!-- Tile Work -->
-  <section class="gallery-section">
-    <h2>Tile Work</h2>
-    <div class="gallery-grid">
-      <img src="assets/gallery/tile/tile-01.jpg" alt="Tile installation">
-    </div>
-  </section>
-
-  <!-- Finish Work -->
-  <section class="gallery-section">
-    <h2>Finish Work</h2>
-    <div class="gallery-grid">
-      <img src="assets/gallery/finish/finish-01.jpg" alt="Finish carpentry">
-    </div>
-  </section>
-
+  <script src="scripts/main.js"></script>
 </body>
 </html>
