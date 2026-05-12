@@ -6,21 +6,28 @@
   <title>Ask Angelo — If it needs fixing… Ask Angelo</title>
   <meta name="description" content="Ventura County handyman services. If it needs fixing… Ask Angelo.">
   <link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<link rel="apple-touch-icon" href="/favicon_512.png">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="apple-touch-icon" href="/favicon_512.png">
   <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="styles/main.css">
   <style>
     /* Small page-specific tweaks to keep the homepage ultra-clean */
-    .landing { min-height: calc(100vh - 84px); display:flex; align-items:center; }
-    .landing-center { width:100%; max-width:720px; margin:0 auto; text-align:center; padding:48px 16px; }
+    .landing { min-height: calc(100vh - 84px); display:flex; flex-direction: column; align-items:center; }
+    .landing-center { width:100%; max-width:720px; margin:0 auto; text-align:center; padding:48px 16px 24px; }
     .landing-logo { width:min(420px, 70vw); height:auto; display:block; margin:0 auto 18px; }
     .landing-tag { margin: 0 0 22px; }
     .btn-stack { display:grid; gap:12px; margin-top:18px; }
     .btn-wide { width:100%; justify-content:center; }
     .subline { margin-top:14px; }
+    .ig-embed-container { width: 100%; max-width: 540px; margin: 24px auto; }
+    
+    /* BBB Logo Styling */
+    .bbb-link { display: inline-block; margin-top: 10px; }
+    .bbb-link img { height: 35px; width: auto; vertical-align: middle; filter: grayscale(1); transition: 0.3s; }
+    .bbb-link:hover img { filter: grayscale(0); }
+
     @media (min-width: 720px){
-      .btn-stack { grid-template-columns: 1fr 1fr 1fr; }
+      .btn-stack { grid-template-columns: 1fr 1fr 1fr 1fr; }
     }
   </style>
 </head>
@@ -35,12 +42,20 @@
         <a class="btn btn-primary btn-wide" href="tel:+18053774771">Call / Text</a>
         <a class="btn btn-ghost btn-wide" href="contact.html">Service Request</a>
         <a class="btn btn-ghost btn-wide" href="gallery.html">Recent Work</a>
+        <a class="btn btn-ghost btn-wide" href="https://g.co/kgs/948f662b201fedfe" target="_blank" rel="noopener">Reviews</a>
       </div>
 
       <p class="muted subline">
-        More photos & updates on Instagram:
-        <a class="footer-link" href="https://instagram.com/askangelo805" target="_blank" rel="noopener"> @askangelo805</a>
+        Updates on Instagram:
+        <a class="footer-link" href="https://www.instagram.com/askangelo.llc/" target="_blank" rel="noopener"> @askangelo.llc</a>
       </p>
+
+      <div class="ig-embed-container">
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/askangelo.llc/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+          <div style="padding:16px;"> <a href="https://www.instagram.com/askangelo.llc/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">View this profile on Instagram</a></div>
+        </blockquote>
+        <script async src="//www.instagram.com/embed.js"></script>
+      </div>
     </section>
   </main>
 
@@ -49,13 +64,16 @@
       <div class="footer-left">
         <div class="footer-title">Ask Angelo LLC</div>
         <div class="footer-sub">Handyman Services • Ventura County</div>
+        <a class="bbb-link" href="https://www.bbb.org/us/ca/camarillo/profile/handyman/ask-angelo-llc-1236-92109386" target="_blank" rel="noopener">
+          <img src="assets/bbb-logo.svg" alt="Ask Angelo, LLC BBB Business Review">
+        </a>
       </div>
       <div class="footer-right">
-        <a class="footer-link" href="tel:+18053774771">Call/Text: (805) 377-4771</a>
+        <a class="footer-link" href="tel:+18053774771">(805) 377-4771</a>
         <span class="dot">•</span>
-        <a class="footer-link" href="mailto:ask@angelodefeo.com">ask@angelodefeo.com</a>
+        <a class="footer-link" href="https://g.co/kgs/948f662b201fedfe" target="_blank" rel="noopener">Google Page</a>
         <span class="dot">•</span>
-        <a class="footer-link" href="https://instagram.com/askangelo805" target="_blank" rel="noopener">Instagram</a>
+        <a class="footer-link" href="https://www.instagram.com/askangelo.llc/" target="_blank" rel="noopener">Instagram</a>
         <span class="dot">•</span>
         <span class="footer-sub">© <span id="year"></span></span>
       </div>
